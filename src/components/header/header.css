@@ -1,0 +1,64 @@
+#header{
+    height:80vh;
+    padding-top: 80px;
+    background-image: url("../../assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner{ 
+    display: flex;
+    max-width: 100%;
+    justify-content: center;  
+    align-items: center;
+    height: 60vh;
+    padding: 10px;
+}
+
+.text-banner h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.text-banner p{
+    font-size: 16px;
+}
+.banner button {
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-left: 90px;
+}
+.banner button:hover{
+    background-color: #2d41a7;
+}
+.banner button:active{
+    background-color: #1c2d86;
+}
+
+.countdown-timer{
+    margin-left: 50px;
+    width: 700px;
+    height: 200px;
+    font-size: 40px;
+    display:grid;
+
+}
+.countdown-timer .count-top{
+    margin-right: 5px;
+    color: var(--color-primary-variant);
+    font-weight: 1000;
+    font-size: 100px;
+}
+.countdown-timer .count-bottom{
+    margin-right: 5px;
+    color: var(--color-white);
+    font-weight: 1000;
+    font-size: 80px;
+}
+
+
+@media screen and (max-width:1024){
+    
+}

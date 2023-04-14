@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #3ABA91;
+    --color-bg-variant: #32ce9c;
+    --color-primary: #d6fda9;
+    --color-primary-variant: #3E52B7;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+  
+    --transition: all 400ms ease;
+  
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-black);
+    line-height: 1.7;
+  }
+
+  .container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+
+  .btn {
+    width: max-content;
+    margin-right: 8px;
+    margin-left: 8px;
+    display: inline-block;
+    color: var(--color-primary-variant);
+    background-color: var(--color-bg);
+    padding: 0.9rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary-variant);
+    transition: var(--transition);
+  }
+  
+  .btn:hover{
+    background: #2b41b1;
+    color: var(--color-white);
+    border-color: transparent;
+  }
+  
+  .btn-primary {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+  }
+
+  @media screen and (max-width: 1024px){
+    .container{
+      width: var(--container-width-md);
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    .container{
+      width: var(--container-width-ms);
+    }
+  
+  }
