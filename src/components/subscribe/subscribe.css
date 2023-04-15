@@ -36,7 +36,7 @@
  
   @media screen and (max-width: 768px) {
     .newsletter-container {
-      padding: 0.5rem;
+      padding: 0.5rem ;
     }
     
     .newsletter-title {

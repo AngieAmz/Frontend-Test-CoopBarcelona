@@ -8,8 +8,8 @@
 }
 
 .banner{ 
-    display: flex;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 40% 50%;
     justify-content: center;  
     align-items: center;
     height: 60vh;
@@ -22,6 +22,7 @@
 }
 .text-banner p{
     font-size: 16px;
+    text-align: justify;
 }
 .banner button {
     text-transform: uppercase;
@@ -46,19 +47,90 @@
 
 }
 .countdown-timer .count-top{
+  margin-bottom: 0;
     margin-right: 5px;
     color: var(--color-primary-variant);
     font-weight: 1000;
     font-size: 100px;
 }
 .countdown-timer .count-bottom{
+  margin-top: 0;
     margin-right: 5px;
     color: var(--color-white);
     font-weight: 1000;
     font-size: 80px;
 }
 
+@media screen and (max-width: 1024px) {
+    .banner {
+        grid-template-columns: 55% 50%;
+      padding: 10px 40px;
+    }
+  
+    .text-banner h1 {
+      font-size: 28px; 
+    }
+  
+    .text-banner p {
+      font-size: 16px; 
+    }
+  
+    .banner button {
+      margin-top: 40px; 
+    }
+  
+    .countdown-timer {
+      font-size: 30px;
+    }
+  
+    .countdown-timer .count-top {
+      font-size: 80px; 
+    }
+  
+    .countdown-timer .count-bottom {
+      font-size: 60px; 
+    }
+  }
+  
 
-@media screen and (max-width:1024){
-    
-}
+
+@media screen and (max-width: 600px) {
+
+  
+    .banner {
+      grid-template-columns: 100%; 
+      height: auto; 
+      padding: 10px 20px; 
+    }
+  
+    .text-banner h1 {
+      font-size: 24px
+    }
+  
+    .text-banner p {
+      font-size: 14px;
+    }
+  
+    .banner button {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+  
+    .countdown-timer {
+      justify-content: center;
+      align-items: center;
+      margin-left: 0; 
+      width: 100%; 
+      height: auto; 
+      font-size: 24px;
+    }
+  
+    .countdown-timer .count-top {
+      font-size: 60px;
+    }
+  
+    .countdown-timer .count-bottom {
+      font-size: 40px; 
+    }
+  }
+  

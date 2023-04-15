@@ -17,7 +17,7 @@ function NavBar() {
         </ul>
         <div className="menu">
             <label htmlFor="chk1">
-                <FiMenu />
+                <FiMenu className='icon'/>
             </label>
         </div>
     </div>

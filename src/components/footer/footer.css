@@ -34,6 +34,7 @@
 
   .footer-list li a:hover{
     color: var(--color-primary-variant);
+    border-bottom: 2px solid var(--color-bg);
   }
 
   
@@ -56,6 +57,7 @@
   }
   
   .social-media-list li a {
+    font-size: 22px;
     color: #333;
     text-decoration: none;
   }

@@ -14,14 +14,19 @@
     display: none;
 }
 
-i{
+.menu{
+    font-size: 2.5em;
+    display: none;
+}
+
+.icon{
     color: #000;
     cursor: pointer;
 }
 
 .nav .logo{
     flex: 1;
-    margin-left: 50px;
+    margin-left: 30px;
     text-transform: uppercase;
 }
 
@@ -31,7 +36,7 @@ i{
 
 .nav ul{
     list-style: none;
-    flex: 1;
+    flex:auto;
     display: flex;
     justify-content: space-evenly;
 }
@@ -73,11 +78,6 @@ i{
     color: var(--color-black);
 }
 
-.menu{
-    font-size: 2.5em;
-    display: none;
-}
-
 
 @media screen and (max-width: 1024px){
     .nav ul{
@@ -95,16 +95,17 @@ i{
     .logo img {
         max-width: 120px;
       }
-    .nav .menu{
+    .menu{
         color: var(--color-black);
         display: block;
-        width: 100px;
         text-align: center;
     }
+
     #chk1:checked ~ ul{
+        
         right: 0;
     }
-  
+   
 }
 
 @media screen and (max-width: 600px){

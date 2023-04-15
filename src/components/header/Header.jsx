@@ -18,8 +18,8 @@ function Header() {
               Then take advantage of our limited-time offer and 
               receive an additional reward for your savings.
               Deposit any amount and you will get an APR of 40% of your savings, ¡Don't Miss the opportunity! </p>
-        </div>
-    </div>
+        </div> 
+    </div> 
         
     </section>
   )

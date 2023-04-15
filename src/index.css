@@ -18,8 +18,6 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
   
-    --transition: all 400ms ease;
-  
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-ms: 90%;
@@ -33,7 +31,6 @@
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-black);
-    line-height: 1.7;
   }
 
   .container{
@@ -77,6 +74,7 @@
   @media screen and (max-width: 600px){
     .container{
       width: var(--container-width-ms);
+      margin-bottom: 10px;
     }
   
   }

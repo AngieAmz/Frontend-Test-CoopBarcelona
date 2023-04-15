@@ -36,12 +36,12 @@ const CountDownTimer = () => {
     <div>
       <div className='countdown-timer'>
         <div className='count-top'>
-          <span>{days}D</span>
-          <span>{hours}H</span>
+          <span>{days}D </span>
+          <span>{hours}H </span>
         </div>
         <div className='count-bottom'>
-          <span>{minutes}M</span>
-          <span>{seconds}S</span>
+          <span>{minutes}M </span>
+          <span>{seconds}S </span>
         </div>
       </div>
     </div>
